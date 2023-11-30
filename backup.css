@@ -1,0 +1,432 @@
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(/Fonts/Inter-Bold.ttf) format(truetype);
+}
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #FF1A98;
+}
+
+nav li {
+    font-family: 'Inter';
+    font-size: 1.2em;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    margin: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Inter Bold', Arial, Helvetica, sans-serif;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.visit-copy-left,
+.visit-copy-right {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 2%;
+}
+
+
+
+
+
+.why-visit,
+.about-us {
+    display: flex;
+}
+
+.visit-copy,
+.about-copy {
+    padding-left: 10rem;
+}
+
+.why-visit img,
+.about-us img {
+    max-width: 100%;
+}
+
+
+
+
+.why-visit,
+.about-us {
+    display: flex;
+}
+
+
+.visit-copy {
+    padding-left: 10rem;
+}
+
+.visit-img img {
+    max-width: 50%;
+    height: auto;
+    padding-left: 17rem;
+    padding-top: 2rem;
+}
+
+.about-us {
+    display: flex;
+}
+
+.about-copy {
+    padding-left: 10rem;
+}
+
+.about-img img {
+    max-width: 50%;
+    height: auto;
+    padding-left: 17rem;
+    padding-top: 2rem;
+}
+
+
+
+
+
+.why-visit,
+.about-us,
+.clubs,
+.special-events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.visit-copy,
+.about-copy,
+.clubs,
+.events-copy {
+    padding: 2rem;
+}
+
+.visit-img,
+.about-img,
+.events-img {
+    width: 100%;
+    height: auto;
+}
+
+.img-star,
+.img-holiday {
+    position: relative;
+}
+
+.special-events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.visiting-professor,
+.Night-in-museum,
+.energetica-exhibition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.events-copy {
+    padding: 2rem;
+}
+
+.events-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.young-stars-club {
+    background-image: url(images/billetto-editorial-334686.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
+.img-club {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover;
+}
+
+
+.last-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.hours,
+.join,
+.location {
+    padding: 2rem;
+}
+
+.img-join {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover;
+}
+
+
+
+.last-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.hours,
+.join,
+.location {
+    padding: 2rem;
+    text-align: center;
+}
+
+.join .join-copy {
+    background: none; /* Remove background image */
+}
+
+.img-join {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover;
+}
+
+
+
+
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.hours {
+    text-align: left;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location i {
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+.last-section {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.hours {
+    text-align: left;
+}
+
+.join,
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location i {
+    font-size: 1.5em;
+}
+
+
+
+
+
+.join,
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+
+
+Now 
+
+.last-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.hours {
+    text-align: left;
+}
+
+.join,
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.join {
+    background-color:#DEEDFE;
+    padding: 2rem;
+    max-height: 100px;
+}
+
+.location i {
+    font-size: 1.5em;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+    .about-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .about-copy {
+        display: flex;
+    }
+
+    .about-img {
+        display: flex;
+        gap: 6rem;
+
+    }
+
+
+    .about-img img {
+        max-height: 200px;
+    }
+
+}
+
+.last-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+
+
+.cosmology {
+    display: grid;
+    grid-template-columns: fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.cosmology-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 230px; 
+    object-fit: cover; 
+    margin-top: 3rem;
+}
+
+.cosmology-copy {
+    padding: 2rem;
+}
+
+
+
+
+
+.visiting-professor {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.visiting-professor-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 2rem;
+}
+
+
+
+mobile
+
+.visit-copy {
+    display: block;
+}
+
+.visit-img {
+    display: block;
+}
+
+.visit-img img {
+max-height: 200px; 
+}
+
+
+
+
+

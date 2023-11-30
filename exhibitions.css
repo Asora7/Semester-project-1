@@ -1,0 +1,558 @@
+@font-face {
+    font-family: "Inter Bold";
+    src: url("../Inter-Bold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Semi";
+    src: url("../Inter-SemiBold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url("../Inter-Regular.woff") format("truetype");
+}
+
+@font-face {
+    font-family:"Kaisei" ;
+    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+}
+
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #FF1A98;
+}
+
+nav li {
+    font-family: 'Inter';
+    font-size: 1.2em;
+    padding: 1.5rem;
+    margin: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-color: #FF1A98;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    cursor: pointer;
+}
+
+label span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    z-index: 2;
+    font-family: 'Inter';
+    background-color: #fff;
+    border-style: solid;
+    padding-right: 2rem;
+}
+
+.menu li {
+    display: block;
+    padding: 10px ;
+    padding-left: 0;
+}
+
+input:checked + label + .menu {
+    display: block;
+}
+
+.exhibition {
+    text-decoration: underline;
+    text-decoration-color: #FF1A98;
+    text-decoration-thickness: 0.2rem;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url(images/andrew-ruiz-348421.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 2rem;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -6rem;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family:'Kaisei' ;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Inter Bold';
+    color: #FF1A98;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Inter Regular';
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.body-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+
+
+.cosmology {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.cosmology-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 4rem;
+}
+
+.cosmology-copy {
+    padding: 2rem;
+    margin-left: -1.5rem;
+}
+
+
+.evolution {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #DEEDFE;
+    padding-bottom: 5rem;
+}
+
+.evolution-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 4rem;
+    object-position: center 63%;
+}
+
+.evolution-copy {
+    padding: 2rem;
+    margin-left: -1.5rem;
+}
+
+
+.biology-medicine {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.biology-medicine-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 4rem;
+    filter: brightness(90%);
+}
+
+.biology-medicine-copy {
+    padding: 2rem;
+    margin-left: -1.5rem;
+}
+
+
+.robotics-AI {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #DEEDFE;
+    padding-bottom: 5rem;
+}
+
+.robotics-AI-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 4rem;
+    filter: brightness(90%);
+}
+
+.robotics-AI-copy {
+    padding: 2rem;
+    margin-left: -1.5rem;
+}
+
+
+
+.ecology {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.ecology-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 4rem;
+}
+
+.ecology-copy {
+    padding: 2rem;
+    margin-left: -1.5rem;
+}
+
+
+
+.energetica-exhibition {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #DEEDFE;
+    padding-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+.energetica-exhibition-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+    margin-top: 4rem;
+}
+
+.energetica-exhibition-copy {
+    padding: 2rem;
+    margin-left: -1.5rem;
+}
+
+
+
+
+
+.visiting-professor {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.visiting-professor-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover; 
+    margin-top: 2rem;
+}
+
+
+
+.night-in-museum {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #DEEDFE;
+    padding-bottom: 4rem;
+}
+
+.night-museum-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover; 
+    margin-top: 2rem;
+}
+
+
+
+.young-stars-club {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.young-stars-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover; 
+    margin-top: 2rem;
+}
+
+
+.special-holiday-club {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #DEEDFE;
+    padding-bottom: 4rem;
+}
+
+.special-holiday-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover; 
+    margin-top: 2rem;
+    object-position: center 20%;
+    filter: brightness(90%);
+}
+
+.event-copy {
+    margin-top: 5rem;
+}
+
+
+footer {
+    background-color: #FF91CD;
+    padding-top: 3rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-footer {
+    max-width: 200px;
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+
+.copyright {
+    margin-left: 50%;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    font-family: 'Inter Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+    
+    .logo {
+        max-width: 150px;
+        margin-top: 1rem;
+    }
+
+    label {
+        display: block;
+        width: 45px;
+        height: 35px;
+        top: 50px;
+        left: 20px;
+    }
+    
+    label span {
+        display: block;
+        width: 100%;
+        height: 5px;
+        margin: 7px 0;
+        transition: 0.3s;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(1) {
+        transform: rotate(45deg) translate(-5px, 6px);
+    }
+
+    #menu-checkbox:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+
+    .banner {
+        min-height: 400px;
+        background-position: center 40%;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .cosmology,
+    .evolution,
+    .biology-medicine,
+    .robotics-AI,
+    .ecology,
+    .energetica-exhibition {
+        display: block;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .logo {
+        max-width: 100px;
+    }
+
+    label {
+        display: block;
+        width: 30px;
+        height: 30px;
+        top: 35px;
+        left: 20px;
+        
+    }
+    
+    label span {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        transition: 0.3s;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(1) {
+        transform: rotate(45deg) translate(-5px, 6px);
+    }
+
+    #menu-checkbox:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+    .burger-menu {
+        display: block;
+    }
+}

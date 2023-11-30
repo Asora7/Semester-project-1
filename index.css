@@ -1,0 +1,760 @@
+@font-face {
+    font-family: "Inter Bold";
+    src: url("../Inter-Bold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Semi";
+    src: url("../Inter-SemiBold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url("../Inter-Regular.woff") format("truetype");
+}
+
+@font-face {
+    font-family:"Kaisei" ;
+    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+}
+
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #FF1A98;
+}
+
+nav li {
+    font-family: 'Inter Bold';
+    font-size: 1.2em;
+    padding: 1.5rem;
+    margin: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-color: #FF1A98;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    cursor: pointer;
+}
+
+label span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    z-index: 2;
+    font-family: 'Inter';
+    background-color: #fff;
+    border-style: solid;
+    padding-right: 2rem;
+}
+
+.menu li {
+    display: block;
+    padding: 10px ;
+    padding-left: 0;
+}
+
+input:checked + label + .menu {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+.home {
+    text-decoration: underline;
+    text-decoration-color: #FF1A98;
+    text-decoration-thickness: 0.2rem;
+}
+
+.banner {
+    background-image: url(images/scientific-2040795_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 2rem;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -6rem;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-family:'Kaisei' ;
+    margin: 0;
+}
+
+.banner h4 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family:'Kaisei' ;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Inter Bold';
+    color: #FF1A98;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Inter Regular';
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+
+
+
+.why-visit,
+.about-us {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.visit-img img,
+.about-img img {
+    width: 100%; 
+    height: auto;
+    max-height: 230px; 
+    object-fit: cover; 
+    margin-top: 3rem;
+}
+
+.visit-vr {
+    filter: brightness(90%);
+}
+
+
+.visit-copy,
+.about-copy {
+    padding: 2rem;
+}
+
+
+
+
+.clubs {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.club-copy {
+    position: relative;
+    z-index: 2;
+    color: #fff; 
+    padding: 2rem;
+    box-sizing: border-box; 
+    margin-top: 3rem;
+}
+
+.clubs h1 {
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Kaisei';
+}
+
+.clubs p {
+    text-align: center;
+}
+
+
+.young-stars-club {
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/billetto-editorial-334686.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+
+.special-holiday-clubs {
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/reading-2762010_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center ;
+}
+
+.overlay-club {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+
+
+.special-events {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.visiting-professor,
+.Night-in-museum,
+.energetica-exhibition {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+}
+
+.events-copy {
+    padding: 2rem;
+}
+
+.body-title {
+    font-family: 'Inter Bold';
+    font-size: 1.2rem;
+}
+
+.event-img img {
+    width: 100%; 
+    height: auto; 
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.Night-in-museum img {
+    object-position: center 70%;
+}
+
+.energetica-exhibition img {
+    object-position: center 40%;
+    margin-bottom: 2rem;
+}
+
+.about-us,
+.special-events {
+    background-color: #DEEDFE;
+}
+
+.body-title {
+    font-weight: 600;
+}
+
+
+
+.last-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin: 0;
+}
+
+
+.hours {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.hours,
+.location {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.join,
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.join {
+    background-color:#DEEDFE;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-height: 100px;
+}
+
+
+.location i {
+    font-size: 1.5em;
+}
+
+
+
+
+footer {
+    background-color: #FF91CD;
+    padding-top: 3rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-footer {
+    max-width: 200px;
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+
+.copyright {
+    margin-left: 50%;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    font-family: 'Inter';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+
+    .logo {
+        max-width: 150px;
+        margin-top: 1rem;
+    }
+
+    label {
+        display: block;
+        width: 45px;
+        height: 35px;
+        top: 50px;
+        left: 20px;
+    }
+    
+    label span {
+        display: block;
+        width: 100%;
+        height: 5px;
+        margin: 7px 0;
+        transition: 0.3s;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(1) {
+        transform: rotate(45deg) translate(-5px, 6px);
+    }
+
+    #menu-checkbox:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+
+    .banner {
+        min-height: 400px;
+    }
+
+    .banner h1 {
+        font-size: 4rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .why-visit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .visit-copy {
+        display: flex;
+    }
+    
+    .visit-copy-left,
+    .visit-copy-right {
+        width: 100%;
+    }
+    
+    .visit-copy-left {
+        margin-right: 5rem;
+    }
+
+    .visit-img {
+        display: flex;
+        gap: 6rem;
+        margin-top: -2rem;
+        margin-bottom: 4rem;
+    }
+
+    .visit-img img {
+        max-height: 300px; 
+    }
+
+    .visit-img-mammoth {
+        margin-left: 1rem;
+    }
+
+
+
+
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .about-copy {
+        display: flex;
+    }
+
+    .about-copy-left,
+    .about-copy-right {
+        width: 100%;
+    }
+
+    .about-copy-left {
+        margin-right: 5rem;
+    }
+
+    .about-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+        margin-top: -5rem;
+    }
+
+    .about-img img {
+        max-height: 200px;
+        height: auto;
+    }
+
+    .about-img-museum {
+        margin-left: rem;
+    }
+
+    .about-img-ant {
+        margin-left: 2rem;
+    }
+
+
+
+    .clubs {
+        display: block;
+
+    }
+ 
+    .young-stars-club {
+        max-width:100% ;
+        height: 600px;
+    }
+
+    .special-holiday-clubs {
+        margin-top: 2rem;
+        max-width: 100%;
+        height: 600px;
+        background-position: center 18%;
+    }
+
+    .club-copy {
+        margin-top: 8rem;
+    }
+
+    .clubs h1 {
+        font-size: 2.5rem;
+    }
+
+    .clubs p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+
+
+    .event-img img {
+        max-height: 250px;
+    }
+
+
+
+    .join {
+        margin-right: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        padding-left: 2rem;
+    }
+
+    .last-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    
+    footer nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column; 
+        font-size: 0.9rem;
+    }
+
+    .logo-footer {
+        margin-top: 5rem;
+        margin-left: 40%;
+    }
+
+    .copyright {
+        margin-top: 5rem;
+        margin-left: 46%;
+    }
+    
+
+    
+    
+}
+
+
+@media screen and (max-width: 750px) {
+    .logo {
+        max-width: 100px;
+    }
+
+    label {
+        display: block;
+        width: 30px;
+        height: 30px;
+        top: 35px;
+        left: 20px;
+        
+    }
+    
+    label span {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        transition: 0.3s;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(1) {
+        transform: rotate(45deg) translate(-5px, 6px);
+    }
+
+    #menu-checkbox:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-checkbox:checked + label span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    body p {
+        font-size: 0.95rem;
+    }
+
+    .banner {
+        min-height: 300px;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .visit-copy {
+        display: block;
+    }
+    
+
+    
+    .visit-img img {
+    max-height: 250px; 
+    }
+
+
+    .about-copy {
+        display: block;
+    }
+
+    .about-img {
+        display: block;
+    }
+
+    .about-img img {
+        max-height: 200px;
+    }
+
+    .about-img-ant {
+        margin-right: 1.5rem;
+    }
+
+
+
+    .body-title {
+        font-weight: 600;
+        font-size: medium;
+    }
+    .special-events {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 2rem;
+    }
+    
+    .visiting-professor,
+    .Night-in-museum,
+    .energetica-exhibition {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .events-copy {
+        margin-bottom: -5rem;
+    }
+    
+    .event-img img {
+        max-width: 100%; 
+        height: auto; 
+        margin-bottom: 2rem;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .logo-footer {
+        margin-left: 35%;
+    }
+
+    footer nav ul {
+        font-size: 0.8rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+    
+
+
+
+
+}
+
+
+
+
+
+
