@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: "Inter Semi";
-    src: url("../Inter-SemiBold.woff") format("truetype");
-}
-
-@font-face {
     font-family: "Inter Regular";
     src: url("../Inter-Regular.woff") format("truetype");
 }
@@ -99,6 +94,137 @@ input:checked + label + .menu {
     display: block;
 }
 
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'Inter Regular';
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 21px;
+}
+
+.contact {
+    text-decoration: underline;
+    text-decoration-color: #FF1A98;
+    text-decoration-thickness: 0.2rem;
+}
+
+h1 {
+    padding-top: 4rem;
+    font-size: 4rem;
+}
+
+.contact-us {
+    background-color: #DEEDFE;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.location-tel p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.body-title {
+    font-size: 1.3rem;
+    font-family: 'Inter Bold';
+}
+
+.admission,
+.hours {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.hours {
+    padding-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.write-to-us {
+    background-color: #fff;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+fieldset {
+    background-color: #DEEDFE;
+    width: 100%;
+    max-width: 600px;
+}
+
+.write-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .input-names {
+    display: flex;
+    gap: 1rem;
+  }
+
+  
+  .form__input {
+    margin-bottom: 10px;
+    padding: 5px;
+    flex-grow: 1;
+    width: 100%;
+  }
+  
+  #email {
+    width: calc(100% - 10px); 
+    margin-top: 1rem;
+  }
+  
+  #write-message {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  
+  button {
+    align-self: flex-start; 
+    background-color: #FF1A98;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+  }
+
+
+  footer {
+    background-color: #FF91CD;
+    padding-top: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-footer {
+    max-width: 200px;
+    margin-top: 2rem;
+}
+
+.copyright {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    font-family: 'Inter Regular';
+}
+  
+
 
 
 @media screen and (max-width: 1100px) {
@@ -148,6 +274,45 @@ input:checked + label + .menu {
     .burger-menu {
         display: block;
     }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    .body-title {
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 6px 20px;
+        font-size: 1rem;
+      }
+
+      #write-message {
+        margin-bottom: 1rem;
+      }
+
+    footer nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column; 
+        font-size: 0.9rem;
+    }
+
+    .logo-footer {
+        max-width: 150px;
+    }
+
+    .copyright {
+        margin-top: 5rem;
+    }
+
 }
 
 
@@ -200,4 +365,54 @@ input:checked + label + .menu {
     .burger-menu {
         display: block;
     }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .body-title {
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 5px 15px;
+        font-size: 1rem;
+      }
+
+      #write-message {
+        margin-bottom: 1rem;
+      }
+
+
+      .logo-footer {
+        max-width: 100px;
+    }
+
+    footer nav ul {
+        font-size: 0.8rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) { 
+
+    .input-names {
+        display: block;
+        gap: 1rem;
+      }
+    
+      .write-form {
+        max-width: 100%; 
+      }
+    
+
 }

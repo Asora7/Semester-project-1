@@ -412,6 +412,40 @@ Now
 
 
 
+
+
+.location-tel {
+    text-align: center;
+}
+
+.body-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.third-section {
+    display: flex;
+}
+
+.ball-img img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+
+.last-img img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
 mobile
 
 .visit-copy {

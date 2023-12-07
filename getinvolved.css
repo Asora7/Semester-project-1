@@ -18,7 +18,6 @@
     src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
 }
 
-
 .logo {
     max-width: 200px;
     margin: 0 auto;
@@ -100,18 +99,20 @@ input:checked + label + .menu {
     display: block;
 }
 
-.exhibition {
+body {
+    margin: 0;
+}
+
+.get-involved {
     text-decoration: underline;
     text-decoration-color: #FF1A98;
     text-decoration-thickness: 0.2rem;
 }
 
-body {
-    margin: 0;
-}
+
 
 .banner {
-    background-image: url(images/andrew-ruiz-348421.jpg\ .jpg);
+    background-image: url(images/mavis-cw-164128_11zon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -148,13 +149,6 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: 'Inter Bold';
-    color: #FF1A98;
-    display: flex;
-    justify-content: center;
-}
-
 p {
     font-family: 'Inter Regular';
     margin-bottom: 2rem;
@@ -162,236 +156,63 @@ p {
     font-size: 21px;
 }
 
+button {
+    background-color: #FF1A98;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.support,
+.volunteer,
+.internships,
+.for-teachers,
+.researchers {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.support-img img {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
 .body-title {
     font-size: 1.3rem;
     font-family: 'Inter Bold';
 }
 
-
-.cosmology {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 2rem;
+.for-teachers-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+  }
+  
+  .for-teachers-img img {
+    height: auto;
+    max-height: 100%; 
+    width: auto;
+    max-width: 100%; 
+    object-fit: cover;
     margin-top: 2rem;
-    margin-bottom: 3rem;
-}
+  }
 
-.cosmology-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-    margin-top: 4rem;
-}
-
-.cosmology-copy {
-    padding: 2rem;
-    margin-left: -1.5rem;
-}
+  .researchers {
+    margin-top: 7rem;
+  }
 
 
-.evolution {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #DEEDFE;
-    padding-bottom: 5rem;
-}
-
-.evolution-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-    margin-top: 4rem;
-    object-position: center 63%;
-}
-
-.evolution-copy {
-    padding: 2rem;
-    margin-left: -1.5rem;
-}
-
-
-.biology-medicine {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 2rem;
-    margin-bottom: 3rem;
-}
-
-.biology-medicine-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-    margin-top: 4rem;
-    filter: brightness(90%);
-}
-
-.biology-medicine-copy {
-    padding: 2rem;
-    margin-left: -1.5rem;
-}
-
-
-.robotics-AI {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #DEEDFE;
-    padding-bottom: 5rem;
-}
-
-.robotics-AI-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-    margin-top: 4rem;
-    filter: brightness(90%);
-}
-
-.robotics-AI-copy {
-    padding: 2rem;
-    margin-left: -1.5rem;
-}
-
-
-
-.ecology {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 2rem;
-    margin-bottom: 3rem;
-}
-
-.ecology-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-    margin-top: 4rem;
-}
-
-.ecology-copy {
-    padding: 2rem;
-    margin-left: -1.5rem;
-}
-
-
-
-.energetica-exhibition {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #DEEDFE;
-    padding-bottom: 5rem;
-    margin-bottom: 3rem;
-}
-
-.energetica-exhibition-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-    margin-top: 4rem;
-}
-
-.energetica-exhibition-copy {
-    padding: 2rem;
-    margin-left: -1.5rem;
-}
-
-
-
-
-
-.visiting-professor {
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-    gap: 2rem;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
-.visiting-professor-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 500px; 
-    object-fit: cover; 
-    margin-top: 2rem;
-}
-
-
-
-.night-in-museum {
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #DEEDFE;
-    padding-bottom: 4rem;
-}
-
-.night-museum-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 500px; 
-    object-fit: cover; 
-    margin-top: 2rem;
-}
-
-
-
-.young-stars-club {
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-    gap: 2rem;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
-.young-stars-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 500px; 
-    object-fit: cover; 
-    margin-top: 2rem;
-}
-
-
-.special-holiday-club {
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #DEEDFE;
-    padding-bottom: 4rem;
-}
-
-.special-holiday-img img {
-    width: 100%; 
-    height: auto;
-    max-height: 500px; 
-    object-fit: cover; 
-    margin-top: 2rem;
-    object-position: center 20%;
-    filter: brightness(90%);
-}
-
-.event-copy {
-    margin-top: 5rem;
-}
-
-
-footer {
+  footer {
     background-color: #FF91CD;
     padding-top: 3rem;
     text-align: center;
@@ -413,14 +234,6 @@ footer a {
     padding-bottom: 1rem;
     font-family: 'Inter Regular';
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -479,42 +292,27 @@ footer a {
     }
 
     .banner h1 {
-        font-size: 3.5rem;
-        margin-top: 3rem;
+        font-size: 4rem;
     }
 
-    h1 {
-        font-size: 1.5rem;
-    }
 
     p {
         font-size: 19px;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 1.2rem;
     }
 
     .body-title {
         font-size: 1.2rem;
     }
 
-    .cosmology img {
-        min-height: 300px;
-    }
+    .for-teachers-img {
+        height: 350px;
+      }
 
-    .visiting-professor .event-copy {
-        margin-top: 1rem;
-    }
-
-    .visiting-professor img {
-        margin-top: 3rem;
-    }
-
-    .night-in-museum img {
-        margin-top: 6rem;
-    }
-
-
-    footer {
-        margin-top: 10rem;
-    }
 
     footer nav ul {
         list-style: none;
@@ -525,6 +323,7 @@ footer a {
         font-size: 0.9rem;
     }
 
+
     .logo-footer {
         max-width: 150px;
     }
@@ -532,9 +331,6 @@ footer a {
     .copyright {
         margin-top: 5rem;
     }
-
-
-
 
 }
 
@@ -589,60 +385,48 @@ footer a {
         display: block;
     }
 
-    .banner h1 {
-        font-size: 2.5rem;
-        margin-top: 3rem;
-    }
-
     .banner {
         min-height: 300px;
     }
 
-
-    h1 {
-        font-size: 1.5rem;
+    .banner h1 {
+        font-size: 3rem;
+        margin-top: 2rem;
     }
 
     p {
         font-size: 16px;
     }
 
+    button {
+        padding: 5px 10px;
+        font-size: 1.1rem;
+    }
+
     .body-title {
         font-size: 1rem;
     }
 
- 
-    .cosmology {
-        margin-top: 0;
+    .support-img img {
+        max-height: 300px;
+        margin-top: 2rem;
     }
 
-    .cosmology-copy,
-    .cosmology-copy,
-    .evolution-copy,
-    .biology-medicine-copy,
-    .robotics-AI-copy,
-    .ecology-copy,
-    .energetica-exhibition-copy {
-        margin-bottom: -3rem;
+    .support,
+    .volunteer,
+    .internships,
+    .for-teachers,
+    .researchers {
+    margin-bottom: 3rem;
     }
+    
+    .for-teachers-img {
+        height: 200px;
+      }
 
 
 
-    .cosmology,
-    .evolution,
-    .biology-medicine,
-    .robotics-AI,
-    .ecology,
-    .energetica-exhibition,
-    .visiting-professor,
-    .night-in-museum,
-    .young-stars-club,
-    .special-holiday-club {
-        display: block;
-    }
-
-
-    .logo-footer {
+      .logo-footer {
         max-width: 100px;
     }
 

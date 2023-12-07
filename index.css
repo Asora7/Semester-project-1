@@ -84,7 +84,7 @@ label span {
     background-color: #fff;
     list-style: none;
     z-index: 2;
-    font-family: 'Inter';
+    font-family: 'Inter Bold';
     background-color: #fff;
     border-style: solid;
     padding-right: 2rem;
@@ -111,7 +111,7 @@ body {
 }
 
 .banner {
-    background-image: url(images/scientific-2040795_1280.jpg);
+    background-image: url(images/scientific-2040795_1280_11zon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,18 +141,19 @@ body {
     margin-top: -6rem;
 }
 
-.banner h1 {
+.banner h1,
+.banner h4  {
     color: #fff;
-    font-size: 5rem;
     font-family:'Kaisei' ;
     margin: 0;
 }
 
+.banner h1 {
+    font-size: 5rem;
+}
+
 .banner h4 {
-    color: #fff;
     font-size: 1.5rem;
-    font-family:'Kaisei' ;
-    margin: 0;
 }
 
 h1 {
@@ -166,7 +167,9 @@ p {
     font-family: 'Inter Regular';
     margin-bottom: 2rem;
     line-height: 1.6;
+    font-size: 21px;
 }
+
 
 
 
@@ -174,7 +177,7 @@ p {
 .why-visit,
 .about-us {
     display: grid;
-    grid-template-columns: 2fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
     gap: 2rem;
     padding: 2rem;
 }
@@ -183,12 +186,9 @@ p {
 .about-img img {
     width: 100%; 
     height: auto;
-    max-height: 230px; 
+    max-height: 350px; 
     object-fit: cover; 
     margin-top: 3rem;
-}
-
-.visit-vr {
     filter: brightness(90%);
 }
 
@@ -220,12 +220,13 @@ p {
 
 .clubs h1 {
     color: #fff;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Kaisei';
 }
 
 .clubs p {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 
@@ -243,10 +244,10 @@ p {
 .special-holiday-clubs {
     position: relative;
     overflow: hidden;
-    background-image: url(images/reading-2762010_1280.jpg);
+    background-image: url(images/reading-2762010_1280_11zon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center ;
+    background-position: center 10% ;
 }
 
 .overlay-club {
@@ -259,8 +260,10 @@ p {
     z-index: 1;
 }
 
-
-
+.body-title {
+    font-family: 'Inter Bold';
+    font-size: 1.2rem;
+}
 
 .special-events {
     display: grid;
@@ -283,7 +286,8 @@ p {
 
 .body-title {
     font-family: 'Inter Bold';
-    font-size: 1.2rem;
+
+    font-size: 21px;
 }
 
 .event-img img {
@@ -291,7 +295,7 @@ p {
     height: auto; 
     max-height: 300px;
     object-fit: cover;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .Night-in-museum img {
@@ -320,12 +324,14 @@ p {
     align-items: center;
     min-height: 100%;
     margin: 0;
+    margin-top: 5rem;
 }
 
 
 .hours {
     text-align: left;
-    margin-left: 2rem;
+    max-width: 300px;
+    margin-right: 6rem;
 }
 
 .hours,
@@ -344,9 +350,11 @@ p {
 
 .join {
     background-color:#DEEDFE;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-height: 100px;
+    padding-left: 2rem;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    margin-left: 2rem;
 }
 
 
@@ -360,6 +368,8 @@ p {
 footer {
     background-color: #FF91CD;
     padding-top: 3rem;
+    text-align: center;
+    margin-top: 10rem;
 }
 
 footer a {
@@ -369,12 +379,10 @@ footer a {
 
 .logo-footer {
     max-width: 200px;
-    margin-left: 45%;
     margin-top: 2rem;
 }
 
 .copyright {
-    margin-left: 50%;
     margin-top: 3rem;
     padding-bottom: 1rem;
     font-family: 'Inter';
@@ -449,7 +457,15 @@ footer a {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    .body-title {
+        font-size: 1.2rem;
     }
 
     .why-visit {
@@ -480,7 +496,7 @@ footer a {
     }
 
     .visit-img img {
-        max-height: 300px; 
+        max-height: 400px; 
     }
 
     .visit-img-mammoth {
@@ -567,21 +583,19 @@ footer a {
     }
 
 
-
+    .last-section p {
+        font-size: 18px;
+    }
+    
     .join {
-        margin-right: 1rem;
-        padding-top: 2rem;
-        padding-bottom: 5rem;
-        padding-left: 2rem;
+        max-width: 300px;
     }
 
-    .last-section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
-        gap: 2rem;
-        padding: 2rem;
-    }
 
+    footer {
+        text-align: center;
+        margin-top: 10rem;
+    }
     
     footer nav ul {
         list-style: none;
@@ -593,13 +607,11 @@ footer a {
     }
 
     .logo-footer {
-        margin-top: 5rem;
-        margin-left: 40%;
+        max-width: 150px;
     }
 
     .copyright {
         margin-top: 5rem;
-        margin-left: 46%;
     }
     
 
@@ -609,6 +621,14 @@ footer a {
 
 
 @media screen and (max-width: 750px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000; 
+      }
+
     .logo {
         max-width: 100px;
     }
@@ -656,7 +676,7 @@ footer a {
     }
 
     body p {
-        font-size: 0.95rem;
+        font-size: 16px;
     }
 
     .banner {
@@ -669,7 +689,15 @@ footer a {
     }
 
     h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .body-title {
+        font-size: 1rem;
     }
 
     .visit-copy {
@@ -679,9 +707,11 @@ footer a {
 
     
     .visit-img img {
-    max-height: 250px; 
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 300px;
     }
-
 
     .about-copy {
         display: block;
@@ -692,7 +722,7 @@ footer a {
     }
 
     .about-img img {
-        max-height: 200px;
+        max-height: 300px;
     }
 
     .about-img-ant {
@@ -733,9 +763,22 @@ footer a {
         flex-direction: column;
     }
 
+    .last-section p {
+        font-size: 16px;
+    }
+
+    .hours {
+        margin-right: 0;
+        margin-bottom: -0.5rem;
+    }
+
+
+    footer {
+        margin-top: 10rem;
+    }
 
     .logo-footer {
-        margin-left: 35%;
+        max-width: 100px;
     }
 
     footer nav ul {
@@ -752,7 +795,6 @@ footer a {
 
 
 }
-
 
 
 
