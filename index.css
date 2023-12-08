@@ -172,31 +172,41 @@ p {
 
 
 
+.why-visit h1,
+.about-us h1,
+.special-events h1 {
+    margin-top: 0; 
+    font-size: 2rem;
+}
 
+.about-us h1 {
+    padding-top: 2rem;
+}
 
-.why-visit,
-.about-us {
+.why-visit-content,
+.about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     padding: 2rem;
 }
 
 .visit-img img,
 .about-img img {
-    width: 100%; 
+    width: 100%;
     height: auto;
-    max-height: 350px; 
-    object-fit: cover; 
+    max-height: 350px;
+    object-fit: cover;
     margin-top: 3rem;
     filter: brightness(90%);
 }
 
-
 .visit-copy,
-.about-copy {
+.about-copy  {
     padding: 2rem;
 }
+
+
 
 
 

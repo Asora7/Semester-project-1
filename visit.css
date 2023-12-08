@@ -174,7 +174,7 @@ button {
     margin-left: 2rem;
 }
 
-button {
+.button {
     background-color: #FF1A98;
     color: #fff;
     padding: 10px 20px;
@@ -320,7 +320,7 @@ footer a {
     margin-top: 3rem;
     }
 
-    button {
+   .button {
         padding: 5px 10px;
         font-size: 1.2rem;
     }
@@ -437,7 +437,7 @@ footer a {
         text-align: center;
     }
 
-    button {
+    .button {
         padding: 5px 10px;
         font-size: 1.1rem;
     }
