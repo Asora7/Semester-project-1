@@ -1,0 +1,34 @@
+    .DS_Store
+	.CFUserTextEncoding
+    .cups/
+	.gitconfig
+	.lesshst
+	.ssh/
+	.viminfo
+	.vscode/
+	.zprofile
+	.zsh_history
+	.zsh_sessions/
+	Applications/
+	Creative Cloud Files/
+	Desktop/.DS_Store
+	Desktop/.localized
+	Desktop/Discord.app/
+	Desktop/GitHub Desktop.app/
+	Desktop/Inter,Kaisei_HarunoUmi/
+	Desktop/Microsoft Teams.app/
+	Desktop/Terminal
+	Desktop/Visual Studio Code.app/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Projoect-1/
+	Public/
+	VS Code/
+	github-classroom/
+	index.html
+	title example
+    	.DS_Store
