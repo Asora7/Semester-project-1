@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Inter Bold";
-    src: url("../Inter-Bold.woff") format("truetype");
+    src: url("../Fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Semi";
-    src: url("../Inter-SemiBold.woff") format("truetype");
+    src: url("../Fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Regular";
-    src: url("../Inter-Regular.woff") format("truetype");
+    src: url("../Fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family:"Kaisei" ;
-    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+    src: url("../Fonts/KaiseiHarunoUmi-Bold.woff2") format("woff2");
 }
 
 .logo {
@@ -38,6 +38,11 @@ nav li {
     font-size: 1.2em;
     padding: 1.5rem;
     margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li:hover {
+    font-size: 1.4rem;
 }
 
 nav ul {
@@ -346,5 +351,21 @@ footer a {
         font-size: 0.8rem;
     }
 
+
+}
+
+
+@media screen and (max-width: 530px) {
+
+    .header {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    }
+
+     h1 {
+        font-size: 29px;
+        margin-top: 6rem;
+    }
 
 }

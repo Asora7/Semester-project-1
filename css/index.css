@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Inter Bold";
-    src: url("../Inter-Bold.woff") format("truetype");
+    src: url("../Fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Semi";
-    src: url("../Inter-SemiBold.woff") format("truetype");
+    src: url("../Fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Regular";
-    src: url("../Inter-Regular.woff") format("truetype");
+    src: url("../Fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family:"Kaisei" ;
-    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+    src: url("../Fonts/KaiseiHarunoUmi-Bold.woff2") format("woff2");
 }
 
 
@@ -39,6 +39,11 @@ nav li {
     font-size: 1.2em;
     padding: 1.5rem;
     margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li:hover {
+    font-size: 1.4rem;
 }
 
 nav ul {
@@ -111,7 +116,7 @@ body {
 }
 
 .banner {
-    background-image: url(/images/scientific-2040795_1280_11zon.jpg);
+    background-image: url(../images/scientific-2040795_1280-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -153,7 +158,7 @@ body {
 }
 
 .banner h4 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 h1 {
@@ -162,6 +167,11 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+h2 {
+    font-family: 'Inter Bold';
+}
+
 
 p {
     font-family: 'Inter Regular';
@@ -206,6 +216,10 @@ p {
     padding: 2rem;
 }
 
+.about-us {
+    padding-bottom: 4rem;
+}
+
 
 
 
@@ -230,20 +244,20 @@ p {
 
 .clubs h1 {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 40px;
     font-family: 'Kaisei';
 }
 
 .clubs p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 19px;
 }
 
 
 .young-stars-club {
     position: relative;
     overflow: hidden;
-    background-image: url(images/billetto-editorial-334686.jpg);
+    background-image: url(../images/billetto-editorial-334686.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,7 +268,7 @@ p {
 .special-holiday-clubs {
     position: relative;
     overflow: hidden;
-    background-image: url(images/reading-2762010_1280_11zon.jpg);
+    background-image: url(../images/reading-2762010_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 10% ;
@@ -395,10 +409,10 @@ footer a {
 .copyright {
     margin-top: 3rem;
     padding-bottom: 1rem;
-    font-family: 'Inter';
+    font-family: 'Inter Regular';
 }
 
-
+   
 
 
 
@@ -411,6 +425,14 @@ footer a {
 
 @media screen and (max-width: 1100px) {
 
+
+
+    header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000; 
+      }
 
     .logo {
         max-width: 150px;
@@ -463,11 +485,19 @@ footer a {
     }
 
     .banner h1 {
-        font-size: 4rem;
+        font-size: 64px;
+    }
+
+    .banner h4 {
+        font-size: 32px;
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
     }
 
     p {
@@ -475,25 +505,19 @@ footer a {
     }
 
     .body-title {
-        font-size: 1.2rem;
+        font-size: 19px;
     }
 
-    .why-visit {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+
+    .why-visit-content,
+    .about-content {
+        display: block;
     }
-    
-    .visit-copy {
-        display: flex;
-    }
-    
-    .visit-copy-left,
-    .visit-copy-right {
-        width: 100%;
-    }
-    
+
+   .why-visit h1 {
+    font-size: 1.8rem;
+   }
+ 
     .visit-copy-left {
         margin-right: 5rem;
     }
@@ -501,7 +525,7 @@ footer a {
     .visit-img {
         display: flex;
         gap: 6rem;
-        margin-top: -2rem;
+        margin-top: 1rem;
         margin-bottom: 4rem;
     }
 
@@ -509,20 +533,9 @@ footer a {
         max-height: 400px; 
     }
 
-    .visit-img-mammoth {
-        margin-left: 1rem;
-    }
 
-
-
-
-    .about-us {
-        display: grid;
-        grid-template-columns: 1fr ;
-    }
-
-    .about-copy {
-        display: flex;
+    .about-us h1 {
+        font-size: 1.8rem;
     }
 
     .about-copy-left,
@@ -534,25 +547,12 @@ footer a {
         margin-right: 5rem;
     }
 
-    .about-img {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 6rem;
-        margin-top: -5rem;
-    }
-
     .about-img img {
-        max-height: 200px;
+        max-height: 300px;
         height: auto;
+        margin-top: 4rem;
     }
 
-    .about-img-museum {
-        margin-left: rem;
-    }
-
-    .about-img-ant {
-        margin-left: 2rem;
-    }
 
 
 
@@ -587,9 +587,19 @@ footer a {
         text-align: center;
     }
 
+    .visiting-professor,
+    .Night-in-museum,
+    .energetica-exhibition {
+        display: block;
+    }
+
+    .special-events h1 {
+        font-size: 1.8rem;
+    }
 
     .event-img img {
-        max-height: 250px;
+        max-height: 300px;
+        margin-top: -1rem;
     }
 
 
@@ -623,9 +633,6 @@ footer a {
     .copyright {
         margin-top: 5rem;
     }
-    
-
-    
     
 }
 
@@ -694,12 +701,20 @@ footer a {
     }
 
     .banner h1 {
-        font-size: 3rem;
-        margin-top: 2rem;
+        font-size: 36px;
+        margin-top: 4rem;
     }
 
-    h1 {
+    .banner h4 {
         font-size: 1.5rem;
+    }
+
+    .why-visit h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
     }
 
     p {
@@ -709,22 +724,31 @@ footer a {
     .body-title {
         font-size: 1rem;
     }
+    
+    .why-visit h1 {
+        margin-bottom: -1rem;
+        font-size: 1.5rem;
+    }
 
-    .visit-copy {
+    .why-visit-content,
+    .about-content {
         display: block;
     }
-    
 
+    .visit-img {
+        display: block;
+    }
     
     .visit-img img {
-        width: 100%;
-        height: auto;
-        max-width: 100%;
         max-height: 300px;
+        margin-top: -1rem;
+
     }
 
-    .about-copy {
-        display: block;
+
+    .about-us h1 {
+        margin-bottom: -1rem;
+        font-size: 1.5rem;
     }
 
     .about-img {
@@ -733,11 +757,14 @@ footer a {
 
     .about-img img {
         max-height: 300px;
+        margin-top: -1rem;
     }
 
-    .about-img-ant {
-        margin-right: 1.5rem;
+    .about-img-museum {
+        max-height: 280px;
+        margin-bottom: 3rem;
     }
+
 
 
 
@@ -745,12 +772,7 @@ footer a {
         font-weight: 600;
         font-size: medium;
     }
-    .special-events {
-        display: grid;
-        grid-template-columns: 1fr; 
-        gap: 2rem;
-    }
-    
+ 
     .visiting-professor,
     .Night-in-museum,
     .energetica-exhibition {
@@ -758,8 +780,13 @@ footer a {
         flex-direction: column; 
     }
     
+    .special-events h1{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
     .events-copy {
-        margin-bottom: -5rem;
+        margin-bottom: -2rem;
     }
     
     .event-img img {
@@ -806,6 +833,90 @@ footer a {
 
 }
 
+
+@media screen and (max-width: 530px) {
+
+
+    .banner {
+        min-height: 200px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        margin-top: 6rem;
+    }
+
+    .banner h4 {
+        font-size: 15px;
+    }
+
+    .why-visit h1,
+    .about-us h1 {
+        font-size: 20px;
+    }
+
+    .why-visit-content,
+    .about-content {
+        text-align: left;
+    }
+
+
+    .overlay-club {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+
+    .young-stars-club {
+        background-position: right ;
+        height: 400px;
+    }
+
+    .young-stars-club h1,
+    .special-holiday-clubs h1 {
+        font-size: 26px;
+        margin-top: -6rem;
+        text-align: center;
+    }
+
+    .young-stars-club h1 {
+        margin-top: -4rem;
+    }
+
+    .young-stars-club p,
+    .special-holiday-clubs p {
+        font-size: 15px;
+    }
+
+
+    .special-holiday-clubs {
+        height: 400px;
+    }
+
+    .special-events .body-title {
+        text-align: center;
+    }
+
+    .events-copy {
+        text-align: left;
+    }
+
+    .special-events h1 {
+        margin-bottom: -3rem;
+    }
+
+    .location {
+        text-align: center;
+    }
+
+    .join {
+        max-width: 12.5rem;
+        margin: auto;
+    }
+
+
+
+
+}
 
 
 

@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Inter Bold";
-    src: url("../Inter-Bold.woff") format("truetype");
+    src: url("../Fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Semi";
-    src: url("../Inter-SemiBold.woff") format("truetype");
+    src: url("../Fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Regular";
-    src: url("../Inter-Regular.woff") format("truetype");
+    src: url("../Fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family:"Kaisei" ;
-    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+    src: url("../Fonts/KaiseiHarunoUmi-Bold.woff2") format("woff2");
 }
 
 
@@ -39,6 +39,11 @@ nav li {
     font-size: 1.2em;
     padding: 1.5rem;
     margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li:hover {
+    font-size: 1.4rem;
 }
 
 nav ul {
@@ -111,7 +116,7 @@ body {
 }
 
 .banner {
-    background-image: url(images/andrew-ruiz-348421.jpg\ .jpg);
+    background-image: url(../images/andrew-ruiz-348421.jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -483,27 +488,38 @@ footer a {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     p {
         font-size: 19px;
     }
 
-    .body-title {
+    h2 {
         font-size: 1.2rem;
     }
 
-    .cosmology img {
-        min-height: 300px;
+    .cosmology,
+    .evolution,
+    .biology-medicine,
+    .robotics-AI,
+    .ecology,
+    .energetica-exhibition,
+    .visiting-professor,
+    .night-in-museum,
+    .young-stars-club,
+    .special-holiday-club {
+        display: block;
     }
 
-    .visiting-professor .event-copy {
-        margin-top: 1rem;
-    }
-
-    .visiting-professor img {
-        margin-top: 3rem;
+    .cosmology img,
+    .evolution img,
+    .biology-medicine img,
+    .robotics-AI img,
+    .ecology img,
+    .energetica-exhibition img {
+        min-height: 500px;
+        margin-top: -2rem;
     }
 
     .night-in-museum img {
@@ -600,30 +616,22 @@ footer a {
 
     h1 {
         font-size: 1.5rem;
+        margin-bottom: 4rem;
     }
 
     p {
         font-size: 16px;
     }
 
-    .body-title {
+    h2 {
         font-size: 1rem;
     }
 
  
     .cosmology {
-        margin-top: 0;
+        margin-top: -3rem;
     }
 
-    .cosmology-copy,
-    .cosmology-copy,
-    .evolution-copy,
-    .biology-medicine-copy,
-    .robotics-AI-copy,
-    .ecology-copy,
-    .energetica-exhibition-copy {
-        margin-bottom: -3rem;
-    }
 
 
 
@@ -640,6 +648,19 @@ footer a {
         display: block;
     }
 
+    .night-in-museum h2,
+    .young-stars-club h2,
+    .special-holiday-club h2 {
+        margin-top: -3rem;
+    }
+
+    .night-in-museum img,
+    .visiting-professor img,
+    .young-stars-club img,
+    .special-holiday-club img {
+        margin-top: -0.5rem;
+    }
+
 
     .logo-footer {
         max-width: 100px;
@@ -653,4 +674,26 @@ footer a {
         font-size: 0.8rem;
     }
 
+}
+
+
+
+@media screen and (max-width: 530px) {
+
+    .banner {
+        min-height: 200px;
+    }
+
+    .banner h1 {
+        font-size: 29px;
+        margin-top: 6rem;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    .visiting-professor {
+        margin-top: -5rem;
+    }
 }

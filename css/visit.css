@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Inter Bold";
-    src: url("../Inter-Bold.woff") format("truetype");
+    src: url("../Fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Regular";
-    src: url("../Inter-Regular.woff") format("truetype");
+    src: url("../Fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family:"Kaisei" ;
-    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+    src: url("../Fonts/KaiseiHarunoUmi-Bold.woff2") format("woff2");
 }
 
 
@@ -31,10 +31,15 @@ header a {
 }
 
 nav li {
-    font-family: 'Inter Bold';
+    font-family: 'Inter Bold', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     padding: 1.5rem;
     margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li:hover {
+    font-size: 1.4rem;
 }
 
 nav ul {
@@ -80,7 +85,7 @@ label span {
     background-color: #fff;
     list-style: none;
     z-index: 2;
-    font-family: 'Inter Bold';
+    font-family: 'Inter Bold', Arial, Helvetica, sans-serif;
     background-color: #fff;
     border-style: solid;
     padding-right: 2rem;
@@ -115,21 +120,28 @@ body {
 
 
 h1 {
-    font-family: 'Inter Bold';
+    font-family: 'Inter Bold', Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
     color: #FF1A98;
     display: flex;
     justify-content: center;
 }
 
+h2 {
+    font-family: 'Inter Bold', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
 p {
-    font-family: 'Inter Regular';
+    font-family: 'Inter Regular', Arial, Helvetica, sans-serif;
     margin-bottom: 2rem;
     line-height: 1.6;
     font-size: 21px;
 }
 
-
+.location-tel,
+.admission,
+.hours,
 .accessibility,
 .food-drink,
 .shop {
@@ -153,9 +165,9 @@ button {
     margin-left: 4rem;
 }
 
-.body-title {
-    font-size: 1.3rem;
-    font-family: 'Inter Bold';
+h2 {
+    font-size: 1.4rem;
+    font-family: 'Inter Bold', Arial, Helvetica, sans-serif;
 }
 
 .third-section {
@@ -177,15 +189,32 @@ button {
 .button {
     background-color: #FF1A98;
     color: #fff;
-    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Inter Regular', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
+.button:hover {
+    border: 2px solid #FF1A98; 
+    cursor: pointer; 
+}
+
+.button:active {
+    background-color: #FF1A98; 
+    color: #d4d4d4; 
+    border: 2px solid #000; 
+    cursor: pointer;
+}
+
+
 .explore-together {
-    background-image: url(images/people-219985_1280.jpg);
+    background-image: url(../images/people-219985_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,7 +246,7 @@ button {
 .explore-together h1 {
     color: #fff;
     font-size: 3.5rem;
-    font-family: 'Kaisei';
+    font-family: 'Kaisei', Arial, Helvetica, sans-serif;
 }
 
 
@@ -300,15 +329,15 @@ footer a {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     p {
         font-size: 19px;
     }
 
-    .body-title {
-        font-size: 1.2rem;
+    h2 {
+        font-size: 1.3rem;
     }
 
     
@@ -321,8 +350,8 @@ footer a {
     }
 
    .button {
-        padding: 5px 10px;
-        font-size: 1.2rem;
+        padding: 8px 10px;
+        font-size: 1.3rem;
     }
 
     .explore-together h1 {
@@ -420,8 +449,8 @@ footer a {
         font-size: 16px;
     }
 
-    .body-title {
-        font-size: 1rem;
+    h2 {
+        font-size: 1.1rem;
     }
 
     .hours {
@@ -436,12 +465,11 @@ footer a {
     .science-img  {
         text-align: center;
     }
-
+    
     .button {
-        padding: 5px 10px;
+        padding: 6px 10px;
         font-size: 1.1rem;
     }
-
 
 
     .logo-footer {
@@ -465,5 +493,51 @@ footer a {
         font-size: 2rem;
     }
 
+
+}
+
+
+
+@media screen and (max-width: 530px) {
+
+    .banner {
+        min-height: 200px;
+    }
+
+    .location-tel {
+        text-align: center;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .tel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .location-tel,
+    .admission,
+    .hours,
+    .accessibility,
+    .food-drink,
+    .shop,
+    .last-img,
+    button {
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .button {
+        text-align: center;
+    }
 
 }

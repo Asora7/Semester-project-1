@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Inter Bold";
-    src: url("../Inter-Bold.woff") format("truetype");
+    src: url("../Fonts/Inter-Bold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Semi";
-    src: url("../Inter-SemiBold.woff") format("truetype");
+    src: url("../Fonts/Inter-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter Regular";
-    src: url("../Inter-Regular.woff") format("truetype");
+    src: url("../Fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family:"Kaisei" ;
-    src: url("../KaiseiHarunoUmi-Bold.woff") format("truetype");
+    src: url("../Fonts/KaiseiHarunoUmi-Bold.woff2") format("woff2");
 }
 
 .logo {
@@ -34,10 +34,15 @@ header a {
 }
 
 nav li {
-    font-family: 'Inter';
+    font-family: 'Inter Bold';
     font-size: 1.2em;
     padding: 1.5rem;
     margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li:hover {
+    font-size: 1.4rem;
 }
 
 nav ul {
@@ -83,7 +88,7 @@ label span {
     background-color: #fff;
     list-style: none;
     z-index: 2;
-    font-family: 'Inter';
+    font-family: 'Inter Bold';
     background-color: #fff;
     border-style: solid;
     padding-right: 2rem;
@@ -112,7 +117,7 @@ body {
 
 
 .banner {
-    background-image: url(images/mavis-cw-164128_11zon.jpg);
+    background-image: url(../images/cw-update.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,6 +170,19 @@ button {
     font-size: 1.4rem;
     margin-bottom: 2rem;
     margin-left: 4rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+button:hover {
+    border: 5px solid #FF1A98; 
+    cursor: pointer; 
+}
+
+  button:active {
+    background-color: #FF1A98; 
+    color: #d4d4d4; 
+    border: 2px solid #000; 
+    cursor: pointer;
 }
 
 .support,
@@ -191,14 +209,17 @@ button {
     font-family: 'Inter Bold';
 }
 
-.for-teachers-img {
+.for-teachers-img,
+.researchers-img  {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px; 
+
   }
   
-  .for-teachers-img img {
+  .for-teachers-img img,
+  .researchers-img img {
     height: auto;
     max-height: 100%; 
     width: auto;
@@ -437,5 +458,22 @@ footer a {
     .copyright {
         font-size: 0.8rem;
     }
+
+}
+
+
+@media screen and (max-width: 530px) {
+    .banner {
+        min-height: 200px;
+    }
+
+    .banner h1 {
+        font-size: 29px;
+        margin-top: 6rem;
+    }
+
+    .for-teachers-img img {
+        max-height: 150px; 
+      }
 
 }
