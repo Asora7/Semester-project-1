@@ -236,6 +236,7 @@ p {
     padding: 2rem;
     box-sizing: border-box; 
     margin-top: 3rem;
+
 }
 
 .clubs h1 {
@@ -247,6 +248,7 @@ p {
 .clubs p {
     text-align: center;
     font-size: 20px;
+    font-family: 'Inter Regular', Arial, Helvetica, sans-serif
 }
 
 
