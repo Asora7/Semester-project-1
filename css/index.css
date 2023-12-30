@@ -486,8 +486,8 @@ footer a {
         font-size: 64px;
     }
 
-    .banner h4 {
-        font-size: 32px;
+    .banner h2 {
+        font-size: 2rem;
     }
 
     h1 {
@@ -699,16 +699,16 @@ footer a {
     }
 
     .banner h1 {
-        font-size: 36px;
+        font-size: 2.5rem;
         margin-top: 4rem;
     }
 
-    .banner h4 {
-        font-size: 1.5rem;
+    .banner h2 {
+        font-size: 1.3rem;
     }
 
     .why-visit h1 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     h2 {
