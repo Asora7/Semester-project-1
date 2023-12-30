@@ -66,6 +66,7 @@ label {
     top: 40px;
     left: 20px;
     cursor: pointer;
+    display: none;
 }
 
 label span {
