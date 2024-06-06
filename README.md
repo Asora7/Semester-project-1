@@ -1,7 +1,8 @@
 # Semester-project-1 Oslo Science Museum
 
 
-![image](img width="227" alt="Skjermbilde 2024-06-06 kl  11 32 38" src="https://github.com/Asora7/Semester-project-1/assets/142609146/45e7db1a-1713-4205-bab5-a3123221ca45")
+![Skjermbilde 2024-06-06 kl  11 32 38](https://github.com/Asora7/Semester-project-1/assets/142609146/45e7db1a-1713-4205-bab5-a3123221ca45)
+
 
 
 
