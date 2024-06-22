@@ -41,13 +41,7 @@ git clone https://github.com/Asora7/Semester-project-1.git
 cd Semester-project-1
 ```
 
-3. Viewing the Project:
-
-```bash
-open index.html
-```
-
-4. Locate the Semester-project-1 folder locally on your computer:
+3. Locate the Semester-project-1 folder locally on your computer:
 
 Locate the Semester-project-1 folder locally on your computer:
 
@@ -59,7 +53,16 @@ On Windows: Similarly, use File Explorer to navigate to the folder where you clo
 
 Once you locate the Semester-project-1 folder, you can open it to access all project files, including index.html.
 
+
+
+4. Viewing the Project:
+
+```bash
+open index.html
+```
+
 View github repository: https://github.com/Asora7/Semester-project-1.git
+View deployed link:  https://asora7.github.io/Semester-project-1/
 
 
 
@@ -85,10 +88,6 @@ Here is how to run the project:
 
 
 
-## View project
-
-To view the project, simply open the `index.html` file in your web browser or view it in deployed link.
-Deployed link:  https://asora7.github.io/Semester-project-1/
 
 
 
