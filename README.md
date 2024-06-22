@@ -72,7 +72,8 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 
 ## Contact
-Email: 
+- [Instagarm](https://www.instagram.com/veronicaasora/)
+- Email: veronica_asora@hotmail.com
 
 
 ## Acknowledgments
