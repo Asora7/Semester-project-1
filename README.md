@@ -59,7 +59,7 @@ npm run start
 
 
 
-## Usage
+## View project
 
 To view the project, simply open the `index.html` file in your web browser or view it in deployed link.
 Deployed link:  https://asora7.github.io/Semester-project-1/
