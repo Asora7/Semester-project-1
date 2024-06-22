@@ -77,18 +77,10 @@ To open the project in Visual Studio Code (VS Code), follow these steps:
 - Once the project is open in VS Code, you can navigate through the files in the Explorer sidebar and edit them as needed.
    
 
-
 ### Running
 
-Here is how to run the project:
-
-```bash
-
-```
-
-
-
-
+Running
+Since this project does not require Node.js or npm, you do not need to run any additional commands to view or edit the project files.
 
 
 ## Contributing
