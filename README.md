@@ -27,13 +27,6 @@ This project entails designing and building a website for the Community Science 
 
 ## Getting Started
 
-Before you begin, ensure you have met the following requirements:
-
-- You have installed Node.js (which includes npm).
-- You have a code editor installed, such as VS Code.
-- You have a GitHub account.
-
-
 ### Installing
 
 1. Clone the repo:
@@ -53,6 +46,33 @@ cd Semester-project-1
 ```bash
 open index.html
 ```
+
+4. Locate the Semester-project-1 folder locally on your computer:
+
+Locate the Semester-project-1 folder locally on your computer:
+
+After cloning, the Semester-project-1 folder should be located in your current directory. If you need to locate it:
+
+On macOS/Linux: You can navigate to the folder where you cloned the project using your file explorer or terminal. Typically, it will be in your home directory or the directory from where you ran the git clone command.
+
+On Windows: Similarly, use File Explorer to navigate to the folder where you cloned the project. This is typically in your user directory or the directory you specified when cloning.
+
+Once you locate the Semester-project-1 folder, you can open it to access all project files, including index.html.
+
+View github repository: https://github.com/Asora7/Semester-project-1.git
+
+
+
+5. Open in VS code:
+
+To open the project in Visual Studio Code (VS Code), follow these steps:
+
+- Launch Visual Studio Code on your computer.
+- In VS Code, go to File > Open Folder....
+- Navigate to the location where you cloned the Semester-project-1 repository.
+- Select the Semester-project-1 folder and click Open.
+- Once the project is open in VS Code, you can navigate through the files in the Explorer sidebar and edit them as needed.
+   
 
 
 ### Running
