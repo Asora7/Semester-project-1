@@ -48,10 +48,10 @@ git clone https://github.com/Asora7/Semester-project-1.git
 cd Semester-project-1
 ```
 
-3. Install the dependencies:
+3. Viewing the Project:
 
-```
-npm install
+```bash
+open index.html
 ```
 
 
@@ -60,7 +60,7 @@ npm install
 Here is how to run the project:
 
 ```bash
-npm run start
+
 ```
 
 
