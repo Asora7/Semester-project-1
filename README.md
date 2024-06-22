@@ -48,8 +48,8 @@ cd Semester-project-1
 open index.html
 ```
 
-View github repository: https://github.com/Asora7/Semester-project-1.git
-View deployed link:  https://asora7.github.io/Semester-project-1/
+- View github repository: https://github.com/Asora7/Semester-project-1.git
+- View deployed link:  https://asora7.github.io/Semester-project-1/
 
 
 4. Locate the Semester-project-1 folder locally on your computer:
