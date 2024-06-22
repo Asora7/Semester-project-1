@@ -43,15 +43,11 @@ cd Semester-project-1
 
 3. Locate the Semester-project-1 folder locally on your computer:
 
-Locate the Semester-project-1 folder locally on your computer:
-
 After cloning, the Semester-project-1 folder should be located in your current directory. If you need to locate it:
 
-On macOS/Linux: You can navigate to the folder where you cloned the project using your file explorer or terminal. Typically, it will be in your home directory or the directory from where you ran the git clone command.
-
-On Windows: Similarly, use File Explorer to navigate to the folder where you cloned the project. This is typically in your user directory or the directory you specified when cloning.
-
-Once you locate the Semester-project-1 folder, you can open it to access all project files, including index.html.
+- On macOS/Linux: You can navigate to the folder where you cloned the project using your file explorer or terminal. Typically, it will be in your home directory or the directory from where you ran the git clone command.
+- On Windows: Similarly, use File Explorer to navigate to the folder where you cloned the project. This is typically in your user directory or the directory you specified when cloning.
+- Once you locate the Semester-project-1 folder, you can open it to access all project files, including index.html.
 
 
 
