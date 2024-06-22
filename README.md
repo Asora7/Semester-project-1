@@ -22,9 +22,22 @@ This project entails designing and building a website for the Community Science 
 
 - HTML
 - CSS
+- VS code
 
 
-## Usage
+## Getting Started
+
+
+### Installing
+
+
+### Running
+
+
+
+
+
+## Usage ?? 
 
 To view the project, simply open the `index.html` file in your web browser.
 Deployed link:  https://asora7.github.io/Semester-project-1/
@@ -34,6 +47,9 @@ Deployed link:  https://asora7.github.io/Semester-project-1/
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+
+## Contact
 
 
 
