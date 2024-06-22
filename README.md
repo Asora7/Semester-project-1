@@ -42,7 +42,13 @@ Before you begin, ensure you have met the following requirements:
 git clone https://github.com/Asora7/Semester-project-1.git
 ```
 
-2. Install the dependencies:
+2. Navigate to the Project Directory:
+   
+```bash
+cd Semester-project-1
+```
+
+3. Install the dependencies:
 
 ```
 npm install
