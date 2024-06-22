@@ -27,19 +27,41 @@ This project entails designing and building a website for the Community Science 
 
 ## Getting Started
 
+Before you begin, ensure you have met the following requirements:
+
+- You have installed Node.js (which includes npm).
+- You have a code editor installed, such as VS Code.
+- You have a GitHub account.
+
 
 ### Installing
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Asora7/Semester-project-1.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
 
 
 ### Running
 
+Here is how to run the project:
+
+```bash
+npm run start
+```
 
 
 
+## Usage
 
-## Usage ?? 
-
-To view the project, simply open the `index.html` file in your web browser.
+To view the project, simply open the `index.html` file in your web browser or view it in deployed link.
 Deployed link:  https://asora7.github.io/Semester-project-1/
 
 
@@ -50,7 +72,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 
 ## Contact
-
+Email: 
 
 
 ## Acknowledgments
